@@ -253,6 +253,12 @@ div i {
 	opacity: 0.6;
 }
 
+@media screen and (max-width: 1136px){
+	#hero h1 {
+		line-height: 1.5;
+	}
+}
+
 @media screen and (max-width: 780px){
 	#portfolio-container {
 		-webkit-box-orient: vertical;
