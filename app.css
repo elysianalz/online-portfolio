@@ -1,0 +1,334 @@
+html, body, header, section {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	background-image: url("https://www.imgbase.info/images/safe-wallpapers/miscellaneous/computer/59937_computer_programming_code.jpg");
+	/*background-image: url("http://www.publicdomainpictures.net/pictures/160000/velka/ordinateur-de-bureau-pc-1456070535WEH.jpg");*/
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-family: "Press Start 2P";
+	/*font-family: ubuntu;*/
+	/*color: #ff3333;*/
+	color:  #e6e6e6;
+}
+
+nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: fixed;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 20px 20px;
+	background: rgba(26,26,26,0.8);
+	width: 100%;
+	font-size: 18px;
+	font-family: ubuntu;
+	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	z-index: 1;
+}
+
+a {
+	color: white;
+	transition: color .3s;
+}
+
+section {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 100px 8%;
+	background-color: #1a1a1a;
+	color: #f2f2f2;
+}
+
+section h1 {
+	font-family: ubuntu;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+div i {
+	font-size: 100px;
+	margin: 20px 20px;
+}
+
+.project {
+	width: 300px;
+}
+
+.thumbnail {
+	color: black;
+	padding: 0;
+	min-width: 200px;
+	margin: 10px 10px;
+}
+
+.caption {
+	padding: 9px 9px;
+}
+
+.caption p:nth-of-type(2n) {
+	color: gray;
+}
+
+.caption a {
+	color: orange;
+}
+
+.light-dark {
+	background-color: #262626;
+}
+
+#contact {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	text-align: center;
+}
+
+#portfolio {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+#portfolio-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 1;
+	        flex: 1 1;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-top: 20px;
+}
+
+#about {
+	display-direction: row;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+#about div {
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 1;
+	        flex: 1 1;
+	padding: 30px 30px;
+}
+
+#about p {
+	font-family: ubuntu;
+	max-width: 400px;
+	line-height: 2;
+}
+
+#about i {
+	margin: 0 auto;
+}
+
+#heading {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-flex: 2;
+	    -ms-flex: 2 1;
+	        flex: 2 1;
+}
+
+#heading h1 {
+	font-size: 1em;
+	color: white;
+	margin: 0;
+}
+
+#direct {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-flex: 1;
+	    -ms-flex: 1 1 100px;
+	        flex: 1 1 100px;
+}
+
+#hero {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	height: 100%;
+	
+}
+
+#skill-set {
+	text-align: center;
+}
+
+#skill-set i {
+	line-height: 1.2;
+	letter-spacing: 5px;
+}
+
+#hero h1 {
+	font-size: 35px;
+	z-index: 1;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#overlay {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0.6;
+}
+
+@media screen and (max-width: 780px){
+	#portfolio-container {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+
+	.thumbnail {
+		margin: 10px auto;
+	}
+
+	#contact {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 645px){
+	section {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		text-align: center;
+	}
+
+	#skill-set {
+		text-align: center;
+	}
+
+	#skill-set i {
+		line-height: 1.2;
+	}
+
+	#hero h1 {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	div i {
+		font-size: 50px;
+	}
+
+	nav {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		padding: 0px 30px;
+	}
+
+	#heading {
+		display: none;
+	}
+
+	#direct {
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+	}
+
+}
+
+/*extra effects*/
+
+nav a:hover {
+	color: cyan;
+	text-decoration: none;
+	cursor: pointer;
+	transition: color 0.5s;
+}
+
+nav h1:hover {
+	cursor: pointer;
+}
+
+#US {
+	transition: .2s;
+}
