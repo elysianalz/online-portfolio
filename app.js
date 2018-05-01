@@ -2,21 +2,24 @@ $(document).ready(function(){
 	typeString("Matthew Beerens Web Development", $("#hero h1"));
 });
 
-$("#about-link").on("click",(function(){
+$("#about-link").on("click",(function(e){
+	e.preventDefault();
 	window.scrollTo({
     	top: $("#about").position().top,
     	behavior: "smooth"
 	});
 }));
 
-$("#portfolio-link").on("click",(function(){
+$("#portfolio-link").on("click",(function(e){
+	e.preventDefault();
 	window.scrollTo({
     	top: $("#portfolio").position().top,
     	behavior: "smooth"
 	});
 }));
 
-$("#contact-link").on("click",(function(){
+$("#contact-link").on("click",(function(e){
+	e.preventDefault();
 	window.scrollTo({
     	top: $("#contact").position().top,
     	behavior: "smooth"
@@ -24,6 +27,7 @@ $("#contact-link").on("click",(function(){
 }));
 
 $("#heading h1").on("click",(function(){
+	e.preventDefault();
 	window.scrollTo({
     	top: $('header').position().top,
     	behavior: "smooth"
