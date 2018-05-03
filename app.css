@@ -74,6 +74,7 @@ div i {
 
 .project {
 	width: 300px;
+	flex: 1 1 300px;
 }
 
 .thumbnail {
@@ -96,7 +97,18 @@ div i {
 }
 
 .light-dark {
-	background-color: #262626;
+	background-color: #1d1d1d;
+}
+
+#me {
+	width: 250px;
+	height: 250px;
+	background-image: url("images/me.jpg");
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-bottom: 15px;
 }
 
 #contact {
@@ -149,6 +161,17 @@ div i {
 	margin-top: 20px;
 }
 
+#about-me {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+}
+
+/*#about-me h1 {
+	text-align: left;
+}*/
+
 #about {
 	display-direction: row;
 	-webkit-box-pack: justify;
@@ -185,9 +208,9 @@ div i {
 	-webkit-box-align: center;
 	    -ms-flex-align: center;
 	        align-items: center;
-	-webkit-box-flex: 2;
-	    -ms-flex: 2 1;
-	        flex: 2 1;
+	-webkit-box-flex: 3;
+	    -ms-flex: 3 1;
+	        flex: 3 1;
 }
 
 #heading h1 {
@@ -205,10 +228,11 @@ div i {
 	        align-items: center;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	        justify-content: space-around;
 	-webkit-box-flex: 1;
 	    -ms-flex: 1 1 100px;
 	        flex: 1 1 100px;
+
 }
 
 #hero {

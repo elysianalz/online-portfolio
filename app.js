@@ -26,7 +26,7 @@ $("#contact-link").on("click",(function(e){
 	});
 }));
 
-$("#heading h1").on("click",(function(){
+$("#heading h1").on("click",(function(e){
 	e.preventDefault();
 	window.scrollTo({
     	top: $('header').position().top,
@@ -48,7 +48,6 @@ function typeString(string, element) {
 		if(!done && index == string.length){
 			done = true;
 			element.append("<span id='US'>_</span>");
-
 			var us = $("#US");
 			window.setInterval(function(){
 				if(us.css("opacity") == 1){
