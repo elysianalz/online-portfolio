@@ -73,8 +73,8 @@ div i {
 }
 
 .project {
-	width: 300px;
-	flex: 1 1 300px;
+	min-width: 300px;
+	flex: 0 0 300px;
 }
 
 .thumbnail {
@@ -157,7 +157,7 @@ div i {
 	    flex-wrap: wrap;
 	-webkit-box-pack: justify;
 	    -ms-flex-pack: justify;
-	        justify-content: space-between;
+	        justify-content: center;
 	margin-top: 20px;
 }
 
